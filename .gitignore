@@ -10,6 +10,8 @@ files/
 /LICENSE.txt
 /MAINTAINERS.txt
 /UPGRADE.txt
+/authorize.php
+/web.config
 robots.txt
 sites/all/README.txt
 sites/all/modules/README.txt
