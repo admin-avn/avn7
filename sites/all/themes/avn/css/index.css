@@ -1,0 +1,90 @@
+/* Banner inferior */
+
+#banner-inferior {
+  background-color: #c8c8c8;
+  width: 980px;
+}
+
+#banner-inferior .logo {
+  padding: 10px 0 0 10px;
+}
+
+#banner-inferior table {
+  border-collapse: collapse;
+  margin-left: auto;
+  width: 900px;
+}
+
+#banner-inferior table th { 
+  text-align: left; 
+}
+
+#banner-inferior table th.ulan,
+#banner-inferior table th.aliados {
+  border-bottom: 1px solid #a0a0a0;
+}
+
+#banner-inferior table th,
+#banner-inferior table tr td a,
+#banner-inferior table th a,
+#banner-inferior .contacto .izquierda div, 
+#banner-inferior .contacto .izquierda div a {
+  color: #4d4d4d;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+#banner-inferior table th,
+#banner-inferior table th a,
+#banner-inferior .contacto .izquierda div, 
+#banner-inferior .contacto .izquierda div a {
+  font-weight: bold;
+}
+
+#banner-inferior table tr td { 
+  padding: 0 10px;
+}
+
+#banner-inferior table tr td.fila1 {
+  padding-top: 10px;
+}
+
+#banner-inferior table th { 
+  padding: 0 10px 10px 10px;
+}
+
+#banner-inferior table th a,
+#banner-inferior table tr td a,
+#banner-inferior .contacto .izquierda div a {
+  text-decoration: none;
+}
+
+#banner-inferior table th.multimedia,
+#banner-inferior table th.snmp,
+#banner-inferior table th.ulan,
+#banner-inferior table th.aliados,
+#banner-inferior table td.barra {
+  border-left: 1px solid #a0a0a0;
+}
+
+#banner-inferior .contacto {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #a0a0a0;
+}
+
+#banner-inferior .contacto .izquierda {
+  float: left;
+  width: 836px;
+}
+
+#banner-inferior .contacto .derecha {
+  float: left;
+  width: 106px;
+}
+
+#banner-inferior .contacto .derecha .imagen {
+  float: left;
+  margin-right: 5px; 
+}
+
