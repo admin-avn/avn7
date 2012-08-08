@@ -1,4 +1,10 @@
 <div class="panel-front clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+	<?php if($content['encabezado']): ?>
+		<div class="panel-encabezado">
+			<div class="inside"><?php print $content['encabezado']; ?></div>
+		</div>
+	<?php endif ?>
+
 	<div class="contenedor-izquierdo clearfix">
 		<?php if($content['slideshow']): ?>
 			<div class="panel-slideshow">
@@ -64,4 +70,10 @@
 			</div>
 		<?php endif ?>
 	</div>
+
+	<?php if($content['pie-de-pagina']): ?>
+		<div class="panel-pie-de-pagina">
+			<div class="inside"><?php print $content['pie-de-pagina']; ?></div>
+		</div>
+	<?php endif ?>
 </div>
