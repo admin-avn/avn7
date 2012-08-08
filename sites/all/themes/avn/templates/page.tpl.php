@@ -132,7 +132,8 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div><!-- /#content -->
-
+		<?php /*
+		Se comenta la sección de navegación, realizado por Héctor Lozada
     <div id="navigation">
 
       <?php if ($main_menu): ?>
@@ -155,7 +156,7 @@
           )); ?>
         </nav>
       <?php endif; ?>
-
+			*/ ?>
       <?php print render($page['navigation']); ?>
 
     </div><!-- /#navigation -->
