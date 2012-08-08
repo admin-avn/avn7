@@ -8,6 +8,7 @@ $plugin = array(
   'theme' => 'panels_front',
   'css' => 'front.css',
   'regions' => array(
+    'encabezado' => t('Encabezado'),
     'slideshow' => t('Slideshow 4 noticias'),
     'audiovisuales' => t('Audiovisuales'),
     '6-noticias' => t('6 Noticias'),
@@ -19,5 +20,6 @@ $plugin = array(
     'opinion' => t('Opinión'),
     'debate' => t('Debate'),
     'especiales' => t('Especiales'),
+    'pie-de-pagina' => t('Pie de página'),
   ),
 );
