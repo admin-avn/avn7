@@ -47,6 +47,7 @@ form .panel-front .contenedor-izquierdo .panel-notas-graficas {
 }
 
 
+.panel-front .panel-encabezado .inside,
 .panel-front .panel-slideshow .inside,
 .panel-front .panel-audiovisuales .inside,
 .panel-front .panel-6-noticias .inside,
@@ -57,6 +58,7 @@ form .panel-front .contenedor-izquierdo .panel-notas-graficas {
 .panel-front .panel-reportajes .inside,
 .panel-front .panel-opinion .inside,
 .panel-front .panel-debate .inside,
-.panel-front .panel-especiales .inside {
+.panel-front .panel-especiales .inside,
+.panel-front .panel-pie-de-pagina .inside {
 	margin-bottom: 1em;
 }
