@@ -1,0 +1,62 @@
+.panel-index { 
+/*  overflow: hidden;  */
+}
+
+.panel-index .contenedor-izquierdo {
+	float: left;
+	margin-right: 20px;
+	width: 630px;
+}
+
+.panel-index .contenedor-derecho {
+	float: left;
+	width: 330px;
+}
+
+form .panel-index .contenedor-izquierdo {
+	float: left;
+	margin-right: 2%;
+	width: 68%;
+}
+
+form .panel-index .contenedor-derecho {
+	float: left;
+	width: 30%;
+}
+
+.panel-index .contenedor-izquierdo .panel-noticias-autogeneradas {
+	float: left;
+	margin-right: 20px;
+	width: 500px;
+}
+
+.panel-index .contenedor-izquierdo .panel-notas-graficas {
+	float: left;
+	width: 110px;
+}
+
+form .panel-index .contenedor-izquierdo .panel-noticias-autogeneradas {
+	float: left;
+	margin-right: 2%;
+	width: 70%;
+}
+
+form .panel-index .contenedor-izquierdo .panel-notas-graficas {
+	float: left;
+	width: 28%;
+}
+
+
+.panel-index .panel-slideshow .inside,
+.panel-index .panel-audiovisuales .inside,
+.panel-index .panel-6-noticias .inside,
+.panel-index .panel-noticias-autogeneradas .inside,
+.panel-index .panel-notas-graficas .inside,
+.panel-index .panel-titulares .inside,
+.panel-index .panel-lo-mas-leido .inside,
+.panel-index .panel-reportajes .inside,
+.panel-index .panel-opinion .inside,
+.panel-index .panel-debate .inside,
+.panel-index .panel-especiales .inside {
+	margin-bottom: 1em;
+}
