@@ -20,7 +20,8 @@ $plugin = array(
 function theme_panels_default_style_render_region($vars) {
   $output = '';
 //  $output .= '<div class="region region-' . $vars['region_id'] . '">';
-  $output .= implode('<div class="panel-separator"></div>', $vars['panes']);
+//  $output .= implode('<div class="panel-separator"></div>', $vars['panes']);
+  $output .= implode('', $vars['panes']);
 //  $output .= '</div>';
   return $output;
 }
