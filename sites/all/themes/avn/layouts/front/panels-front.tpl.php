@@ -1,4 +1,4 @@
-<div class="panel-index clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-front clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 	<div class="contenedor-izquierdo clearfix">
 		<?php if($content['slideshow']): ?>
 			<div class="panel-slideshow">
