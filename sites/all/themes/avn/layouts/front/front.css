@@ -1,62 +1,62 @@
-.panel-index { 
+.panel-front { 
 /*  overflow: hidden;  */
 }
 
-.panel-index .contenedor-izquierdo {
+.panel-front .contenedor-izquierdo {
 	float: left;
 	margin-right: 20px;
 	width: 630px;
 }
 
-.panel-index .contenedor-derecho {
+.panel-front .contenedor-derecho {
 	float: left;
 	width: 330px;
 }
 
-form .panel-index .contenedor-izquierdo {
+form .panel-front .contenedor-izquierdo {
 	float: left;
 	margin-right: 2%;
 	width: 68%;
 }
 
-form .panel-index .contenedor-derecho {
+form .panel-front .contenedor-derecho {
 	float: left;
 	width: 30%;
 }
 
-.panel-index .contenedor-izquierdo .panel-noticias-autogeneradas {
+.panel-front .contenedor-izquierdo .panel-noticias-autogeneradas {
 	float: left;
 	margin-right: 20px;
 	width: 500px;
 }
 
-.panel-index .contenedor-izquierdo .panel-notas-graficas {
+.panel-front .contenedor-izquierdo .panel-notas-graficas {
 	float: left;
 	width: 110px;
 }
 
-form .panel-index .contenedor-izquierdo .panel-noticias-autogeneradas {
+form .panel-front .contenedor-izquierdo .panel-noticias-autogeneradas {
 	float: left;
 	margin-right: 2%;
 	width: 70%;
 }
 
-form .panel-index .contenedor-izquierdo .panel-notas-graficas {
+form .panel-front .contenedor-izquierdo .panel-notas-graficas {
 	float: left;
 	width: 28%;
 }
 
 
-.panel-index .panel-slideshow .inside,
-.panel-index .panel-audiovisuales .inside,
-.panel-index .panel-6-noticias .inside,
-.panel-index .panel-noticias-autogeneradas .inside,
-.panel-index .panel-notas-graficas .inside,
-.panel-index .panel-titulares .inside,
-.panel-index .panel-lo-mas-leido .inside,
-.panel-index .panel-reportajes .inside,
-.panel-index .panel-opinion .inside,
-.panel-index .panel-debate .inside,
-.panel-index .panel-especiales .inside {
+.panel-front .panel-slideshow .inside,
+.panel-front .panel-audiovisuales .inside,
+.panel-front .panel-6-noticias .inside,
+.panel-front .panel-noticias-autogeneradas .inside,
+.panel-front .panel-notas-graficas .inside,
+.panel-front .panel-titulares .inside,
+.panel-front .panel-lo-mas-leido .inside,
+.panel-front .panel-reportajes .inside,
+.panel-front .panel-opinion .inside,
+.panel-front .panel-debate .inside,
+.panel-front .panel-especiales .inside {
 	margin-bottom: 1em;
 }
