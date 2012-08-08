@@ -1,3 +1,18 @@
+/* Bloque nice menu */
+
+.panel-encabezado .pane-nice-menus-1 {
+	position: absolute;
+	top: 65px;
+}
+
+/* Redes sociales */
+
+.panel-encabezado .pane-block-3 {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
 /* Banner inferior */
 
 #banner-inferior {
