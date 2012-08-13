@@ -27,12 +27,12 @@ form .panel-front .contenedor-derecho {
 .panel-front .contenedor-izquierdo .panel-noticias-autogeneradas {
 	float: left;
 	margin-right: 20px;
-	width: 500px;
+	width: 450px;
 }
 
 .panel-front .contenedor-izquierdo .panel-notas-graficas {
 	float: left;
-	width: 110px;
+	width: 160px;
 }
 
 form .panel-front .contenedor-izquierdo .panel-noticias-autogeneradas {
@@ -46,10 +46,10 @@ form .panel-front .contenedor-izquierdo .panel-notas-graficas {
 	width: 28%;
 }
 
-
 .panel-front .panel-encabezado .inside,
 .panel-front .panel-slideshow .inside,
 .panel-front .panel-audiovisuales .inside,
+.panel-front .panel-especial .inside,
 .panel-front .panel-6-noticias .inside,
 .panel-front .panel-noticias-autogeneradas .inside,
 .panel-front .panel-notas-graficas .inside,

@@ -11,6 +11,7 @@ $plugin = array(
     'encabezado' => t('Encabezado'),
     'slideshow' => t('Slideshow 4 noticias'),
     'audiovisuales' => t('Audiovisuales'),
+    'especial' => t('Especial'),
     '6-noticias' => t('6 Noticias'),
     'noticias-autogeneradas' => t('Noticias autogeneradas'),
     'notas-graficas' => t('Notas gráficas'),

@@ -13,6 +13,12 @@
 				</div>
 			<?php endif ?>
 			
+			<?php if($content['especial']): ?>
+				<div class="panel-especial">
+					<div class="inside"><?php print $content['especial']; ?></div>
+				</div>
+			<?php endif ?>
+			
 			<?php if($content['6-noticias']): ?>
 				<div class="panel-6-noticias">
 					<div class="inside"><?php print $content['6-noticias']; ?></div>
