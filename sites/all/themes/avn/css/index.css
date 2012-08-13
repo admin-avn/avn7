@@ -1,3 +1,9 @@
+/* Globales */
+
+.panel-front .panel-6-noticias .inside {
+	border-bottom: 1px solid #bcbcbc;
+}
+
 /* Bloque nice menu */
 
 .panel-encabezado .pane-nice-menus-1 {
@@ -200,4 +206,124 @@
 
 #views_slideshow_pager_field_item_bottom_noticias-block_1_0 ~ div {
 	margin-left: 22px;
+}
+
+/* 6 Noticias */
+
+.vista-6-noticias {
+	letter-spacing: 0;
+	word-spacing: 0;
+	font-size: 0;
+}
+
+.vista-6-noticias .views-row {
+	display: inline-block;
+	margin-bottom: 10px;
+	position: relative;
+	vertical-align: top;
+	width: 200px;
+}
+
+.vista-6-noticias .views-row-2,
+.vista-6-noticias .views-row-3,
+.vista-6-noticias .views-row-5,
+.vista-6-noticias .views-row-6 {
+	margin-left: 15px;
+}
+
+.vista-6-noticias .views-row ul {
+	margin: 0;
+	padding: 0;
+}
+
+.vista-6-noticias .views-row ul li {
+	list-style: none;
+}
+
+.vista-6-noticias .views-row div.categoria {
+	background: #31487e;
+	height: 23px;
+	line-height: 23px;
+	position: absolute;
+	top: 0;
+	width: 190px;
+	padding: 2px 5px;
+}
+
+.vista-6-noticias .views-row div.categoria a {
+	color: white;
+	font-family: "Verdana", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.vista-6-noticias .views-row div.titulo {
+	line-height: 10px;
+}
+
+.vista-6-noticias .views-row div.titulo a {
+	color: #31487e;
+	font-size: 12px;
+	font-family: "Verdana", sans-serif;
+	text-decoration: none;
+}
+
+/* Noticias autogeneradas */
+
+.vista-noticias-autogeneradas div.noticia {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bcbcbc;
+}
+
+.vista-noticias-autogeneradas div.categoria {
+}
+
+.vista-noticias-autogeneradas div.categoria a {
+	color: white;
+	background: #8e99b4;
+	padding: 5px 10px;
+	font-family: "Verdana", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.vista-noticias-autogeneradas ul {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.vista-noticias-autogeneradas ul li {
+	list-style: none;
+}
+
+.vista-noticias-autogeneradas .imagen {
+	float: left;
+	width: 160px;
+	height: 110px;
+	margin-right: 10px;
+}
+
+.vista-noticias-autogeneradas .sumario {
+	color: #444;
+	font-family: "Verdana", sans-serif;
+	font-size: 12px;
+	float: left;
+	width: 280px;
+}
+
+.vista-noticias-autogeneradas div.titulo {
+	margin: 10px 0;
+}
+
+.vista-noticias-autogeneradas div.titulo a {
+	color: #31487e;
+	font-family: "Verdana", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
 }
