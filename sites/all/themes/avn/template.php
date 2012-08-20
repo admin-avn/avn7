@@ -224,3 +224,16 @@ function avn_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+/*|
+function avn_preprocess_views_view_fields(&$variables, $hook) {
+	if(isset($variables['view']->name)) {
+		$function = __FUNCTION__ . '__' . $variables['view']->name . '__' . $variables['view']->current_display;
+		if(function_exists($function)) {
+			$function($variables);
+		}
+	}
+}
+
+function avn_preprocess_views_view_fields__noticias__block_2(&$variables, $hook) {
+	$variables['field_titulo_portada']->content .= "Hola Mundo";
+}
