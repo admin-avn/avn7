@@ -372,3 +372,60 @@
 	font-weight: bold;
 	text-decoration: none;
 }
+
+/* QuickTabs Audiovisual */
+
+#quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle {
+	background: #31487E;
+	margin: 0;
+	padding: 5px 0 0 5px;
+	height: 31px;
+}
+
+#quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li {
+}
+
+#quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li.active {
+	background: #F2F2F2;
+	padding: 0 10px 14px 10px;
+}
+
+#quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li.active a {
+	color: #444;
+}
+
+#quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li a {
+	color: white;
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* QuickTabs Audiovisual Fotografía */
+
+#quicktabs-audiovisual .audiovisual-fotografias {
+	background: #e7e6e7;
+}
+
+#quicktabs-audiovisual .audiovisual-fotografias ul {
+	padding: 10px;
+	margin: 0;
+}
+
+#quicktabs-audiovisual .audiovisual-fotografias ul li {
+	list-style: none;
+}
+
+#quicktabs-audiovisual .audiovisual-fotografias .fotografia-titulo {
+	margin-left: 10px;
+}
+
+#quicktabs-audiovisual .audiovisual-fotografias .fotografia-titulo a {
+	color: #31487E;
+	font-family: "Verdana", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
