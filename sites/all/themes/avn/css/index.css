@@ -244,8 +244,6 @@
 	background: #31487e;
 	height: 23px;
 	line-height: 23px;
-	position: absolute;
-	top: 0;
 	width: 190px;
 	padding: 2px 5px;
 }
@@ -312,6 +310,7 @@
 	color: #444;
 	font-family: "Verdana", sans-serif;
 	font-size: 12px;
+	line-height: 17px;
 	float: left;
 	width: 280px;
 }
@@ -324,6 +323,52 @@
 	color: #31487e;
 	font-family: "Verdana", sans-serif;
 	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Notas gráficas */
+
+.vista-notas-graficas .views-row {
+	border-bottom: 1px solid #bcbcbc;
+	position: relative;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.vista-notas-graficas ul {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.vista-notas-graficas ul li {
+	list-style: none;
+}
+
+.vista-notas-graficas div.categoria {
+	background: #31487e;
+	padding: 2px 5px;
+	height: 23px;
+	line-height: 19px;
+}
+
+.vista-notas-graficas div.categoria a {
+	color: white;
+	font-family: "Verdana", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.vista-notas-graficas div.titulo {
+	line-height: 15px;
+}
+
+.vista-notas-graficas div.titulo a {
+	color: #31487E;
+	font-family: "Verdana", sans-serif;
+	font-size: 12px;
 	font-weight: bold;
 	text-decoration: none;
 }
