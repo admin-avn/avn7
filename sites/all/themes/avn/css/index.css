@@ -383,11 +383,12 @@
 }
 
 #quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li {
+	padding: 0 10px 9px 10px;
 }
 
 #quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li.active {
 	background: #F2F2F2;
-	padding: 0 10px 14px 10px;
+	padding: 0 10px 9px 10px;
 }
 
 #quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li.active a {
@@ -426,6 +427,68 @@
 	color: #31487E;
 	font-family: "Verdana", sans-serif;
 	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Titulares */
+
+.titulo-titulares {
+	background: #9c9c9c;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 10px;
+}
+
+.titulo-titulares a {
+	color: white;
+	font-family: "Verdana",sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.pie-titulares {
+	background: #31487e;
+	float: right;
+	padding: 0 10px;
+}
+
+.pie-titulares a {
+	color: white;
+	font-family: "Verdana", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.vista-titulares table {
+	margin: 0;
+}
+
+.vista-titulares table tr {
+	padding: 0;
+}
+
+.vista-titulares table tr td.hora {
+	color: darkGray;
+	font-family: "Georgia";
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+.vista-titulares table tr td.titulo {
+	line-height: 15px;
+	padding: 10px 5px;
+}
+
+.vista-titulares table tr td.titulo a {
+	color: #31487e;
+	font-size: 12px;
+	font-family: "Verdana", sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 }
