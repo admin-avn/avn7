@@ -388,7 +388,7 @@
 
 #quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li.active {
 	background: #F2F2F2;
-	padding: 0 10px 9px 10px;
+	padding: 0 10px 10px 10px;
 }
 
 #quicktabs-audiovisual ul.quicktabs-tabs.quicktabs-style-nostyle li.active a {
@@ -495,19 +495,23 @@
 
 /* PlayButton */
 
-#quicktabs-audiovisual .video {
+.audiovisual-videos {
+	background: #e7e6e7;
+}
+
+.audiovisual-videos .video {
 	width: 310px;
 	height: 205px;
 	padding: 10px;
 	position: relative;
 }
 
-#quicktabs-audiovisual .video .playbutton {
+.audiovisual-videos .video .playbutton {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-left: -30px;
-	margin-top: -20px;
+	margin-top: -25px;
 	height: 50px;
 	opacity: .5;
 	-webkit-transition: opacity 0.3s linear 0.5s;
@@ -517,7 +521,7 @@
 	transition: opacity 0.3s linear 0.5;
 }
 
-#quicktabs-audiovisual .video .playbutton:hover {
+.audiovisual-videos .video .playbutton:hover {
 	opacity: 1;
 	-webkit-transition: opacity 0.3s linear 0.5;
 	-moz-transition: opacity 0.3s linear 0.5;
