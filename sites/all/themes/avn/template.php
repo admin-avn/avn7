@@ -237,3 +237,5 @@ function avn_preprocess_views_view_fields(&$variables, $hook) {
 function avn_preprocess_views_view_fields__noticias__block_2(&$variables, $hook) {
 	$variables['field_titulo_portada']->content .= "Hola Mundo";
 }
+
+ */
