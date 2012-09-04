@@ -1,0 +1,33 @@
+.panel-nodo { 
+/*  overflow: hidden;  */
+}
+
+.panel-nodo .contenedor-izquierdo {
+	float: left;
+	margin-right: 20px;
+	width: 630px;
+}
+
+.panel-nodo .contenedor-derecho {
+	float: left;
+	width: 330px;
+}
+
+form .panel-nodo .contenedor-izquierdo {
+	float: left;
+	margin-right: 2%;
+	width: 68%;
+}
+
+form .panel-nodo .contenedor-derecho {
+	float: left;
+	width: 30%;
+}
+
+.panel-nodo .panel-encabezado .inside,
+.panel-nodo .panel-titulares .inside,
+.panel-nodo .panel-reportajes .inside,
+.panel-nodo .panel-opinion .inside,
+.panel-nodo .panel-pie-de-pagina .inside {
+	margin-bottom: 1em;
+}
